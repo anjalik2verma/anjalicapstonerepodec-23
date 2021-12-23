@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-22T12:57:03 IST" name="Suite" finished-at="2021-12-22T12:57:27 IST" duration-ms="23696">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cisco.testscripts.TestRunner@47a5b70d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-12-22T12:57:03 IST" name="Test" finished-at="2021-12-22T12:57:27 IST" duration-ms="23696">
+      <class name="com.cisco.testscripts.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cisco.testscripts.TestRunner@47a5b70d]" started-at="2021-12-22T12:57:03 IST" name="setUpClass" finished-at="2021-12-22T12:57:04 IST" duration-ms="316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1bbddada]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cisco.testscripts.TestRunner@47a5b70d]" started-at="2021-12-22T12:57:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-22T12:57:11 IST" duration-ms="6974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Booking a Flight"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[a user should able to Book flight in the FlyAway application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cisco.testscripts.TestRunner@47a5b70d]" started-at="2021-12-22T12:57:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-22T12:57:15 IST" duration-ms="4208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[a user should able to Login to the FlyAway application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cisco.testscripts.TestRunner@47a5b70d]" started-at="2021-12-22T12:57:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-22T12:57:19 IST" duration-ms="3806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Flight"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[a user should able to search flight in the FlyAway application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cisco.testscripts.TestRunner@47a5b70d]" started-at="2021-12-22T12:57:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-22T12:57:23 IST" duration-ms="4087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["SignUp"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[a user should able to signup on the FlyAway application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cisco.testscripts.TestRunner@47a5b70d]" started-at="2021-12-22T12:57:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-22T12:57:27 IST" duration-ms="4241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View Booked Flight"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[a user should able to view flight bookings in the FlyAway application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cisco.testscripts.TestRunner@47a5b70d]" started-at="2021-12-22T12:57:27 IST" name="tearDownClass" finished-at="2021-12-22T12:57:27 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cisco.testscripts.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
